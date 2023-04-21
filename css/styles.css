@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Source+Sans+Pro:wght@300&display=swap');
+
+
 *{
   margin: 0px;
   padding: 0px;
@@ -10,9 +13,25 @@
   --cor-hover: #3F4E4F;
 }
 
+.corpo{
+  background-color: var(--cor-primaria);
+}
+
 .cabecalho{
-  background-color: var(--cor-secundaria)
-  
+  background-color: var(--cor-terciaria);
 
 }
+
+  .cabecalho__menu{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10% 1% 10%;
+  }
+
+  .cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Krona One', sans-serif;;
+  }
 
