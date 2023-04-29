@@ -7,10 +7,10 @@
 }
 
 :root{
-  --cor-primaria: #3A98B9;
-  --cor-secundaria: #EEEEEE;
-  --cor-terciaria: #E8D5C4;
-  --cor-hover: #FFF1DC;
+  --cor-primaria: #F8EDE3;
+  --cor-secundaria: #594545;
+  --cor-terciaria: #FFF8EA;
+  --cor-hover: #9E7676;
 }
 
 .corpo{
@@ -35,6 +35,26 @@
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Krona One', sans-serif;;
+  }
+
+  .projeto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1%;
+  }
+
+  .titulo{
+    color: var(--cor-secundaria);
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+  .texto{
+    color: var(--cor-secundaria);
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    font-size: 1.25rem;
   }
 
 
