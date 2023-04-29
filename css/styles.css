@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato&display=swap');
 
 
 *{
@@ -7,14 +7,16 @@
 }
 
 :root{
-  --cor-primaria: #2C3639;
-  --cor-secundaria: #DCD7C9;
-  --cor-terciaria: #A27B5C;
-  --cor-hover: #3F4E4F;
+  --cor-primaria: #3A98B9;
+  --cor-secundaria: #EEEEEE;
+  --cor-terciaria: #E8D5C4;
+  --cor-hover: #FFF1DC;
 }
 
 .corpo{
   background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  font-family: 'Lato', sans-serif;
 }
 
 .cabecalho{
@@ -34,4 +36,6 @@
     color: var(--cor-secundaria);
     font-family: 'Krona One', sans-serif;;
   }
+
+
 
